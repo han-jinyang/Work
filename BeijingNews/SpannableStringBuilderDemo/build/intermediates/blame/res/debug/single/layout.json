@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "C:\\AndroidStudioProjects\\BeijingNews\\SpannableStringBuilderDemo\\build\\intermediates\\res\\merged\\debug\\layout\\activity_text.xml",
+        "source": "C:\\AndroidStudioProjects\\BeijingNews\\SpannableStringBuilderDemo\\src\\main\\res\\layout\\activity_text.xml"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\OpenSource\\SpannableStringBuilderDemo\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "C:\\AndroidStudioProjects\\OpenSource\\SpannableStringBuilderDemo\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\BeijingNews\\SpannableStringBuilderDemo\\build\\intermediates\\res\\merged\\debug\\layout\\item_listview.xml",
+        "source": "C:\\AndroidStudioProjects\\BeijingNews\\SpannableStringBuilderDemo\\src\\main\\res\\layout\\item_listview.xml"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\OpenSource\\SpannableStringBuilderDemo\\build\\intermediates\\res\\merged\\debug\\layout\\item_listview.xml",
+        "source": "C:\\AndroidStudioProjects\\OpenSource\\SpannableStringBuilderDemo\\src\\main\\res\\layout\\item_listview.xml"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\OpenSource\\SpannableStringBuilderDemo\\build\\intermediates\\res\\merged\\debug\\layout\\activity_launcher.xml",
+        "source": "C:\\AndroidStudioProjects\\OpenSource\\SpannableStringBuilderDemo\\src\\main\\res\\layout\\activity_launcher.xml"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\OpenSource\\SpannableStringBuilderDemo\\build\\intermediates\\res\\merged\\debug\\layout\\activity_text.xml",
+        "source": "C:\\AndroidStudioProjects\\OpenSource\\SpannableStringBuilderDemo\\src\\main\\res\\layout\\activity_text.xml"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\BeijingNews\\SpannableStringBuilderDemo\\build\\intermediates\\res\\merged\\debug\\layout\\activity_launcher.xml",
+        "source": "C:\\AndroidStudioProjects\\BeijingNews\\SpannableStringBuilderDemo\\src\\main\\res\\layout\\activity_launcher.xml"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\BeijingNews\\SpannableStringBuilderDemo\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "C:\\AndroidStudioProjects\\BeijingNews\\SpannableStringBuilderDemo\\src\\main\\res\\layout\\activity_main.xml"
+    }
+]

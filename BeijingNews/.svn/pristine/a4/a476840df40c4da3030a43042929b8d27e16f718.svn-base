@@ -1,0 +1,5 @@
+C:/AndroidStudioProjects/OpenSource/android-gif-drawable-master/src/main/obj/local/x86/objs/pl_droidsonroids_gif/surface_common.o: \
+  C:/AndroidStudioProjects/OpenSource/android-gif-drawable-master/src/main/jni/surface_common.c \
+  C:/AndroidStudioProjects/OpenSource/android-gif-drawable-master/src/main/jni/gif.h
+
+C:/AndroidStudioProjects/OpenSource/android-gif-drawable-master/src/main/jni/gif.h:

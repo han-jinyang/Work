@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\AndroidStudioProjects\\BeijingNews\\PullToRefresh_sample\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\default_ptr_rotate.png",
+        "source": "C:\\AndroidStudioProjects\\BeijingNews\\PullToRefresh_sample\\build\\intermediates\\exploded-aar\\BeijingNews\\PullToRefresh_library\\unspecified\\res\\drawable-xhdpi-v4\\default_ptr_rotate.png"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\BeijingNews\\PullToRefresh_sample\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\android.png",
+        "source": "C:\\AndroidStudioProjects\\BeijingNews\\PullToRefresh_sample\\src\\main\\res\\drawable-xhdpi\\android.png"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\BeijingNews\\PullToRefresh_sample\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\indicator_arrow.png",
+        "source": "C:\\AndroidStudioProjects\\BeijingNews\\PullToRefresh_sample\\build\\intermediates\\exploded-aar\\BeijingNews\\PullToRefresh_library\\unspecified\\res\\drawable-xhdpi-v4\\indicator_arrow.png"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\BeijingNews\\PullToRefresh_sample\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\default_ptr_flip.png",
+        "source": "C:\\AndroidStudioProjects\\BeijingNews\\PullToRefresh_sample\\build\\intermediates\\exploded-aar\\BeijingNews\\PullToRefresh_library\\unspecified\\res\\drawable-xhdpi-v4\\default_ptr_flip.png"
+    }
+]

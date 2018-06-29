@@ -1,0 +1,14 @@
+C:/AndroidStudioProjects/OpenSource/android-gif-drawable-master/src/main/obj/local/armeabi-v7a/objs/pl_droidsonroids_gif_surface/surface.o: \
+  C:/AndroidStudioProjects/OpenSource/android-gif-drawable-master/src/main/jni/surface.c \
+  C:/AndroidStudioProjects/OpenSource/android-gif-drawable-master/src/main/jni/gif.h \
+  C:/Android_studio_sdk/ndk-bundle/platforms/android-21/arch-arm/usr/include\android/native_window_jni.h \
+  C:/Android_studio_sdk/ndk-bundle/platforms/android-21/arch-arm/usr/include\android/native_window.h \
+  C:/Android_studio_sdk/ndk-bundle/platforms/android-21/arch-arm/usr/include\android/rect.h
+
+C:/AndroidStudioProjects/OpenSource/android-gif-drawable-master/src/main/jni/gif.h:
+
+C:/Android_studio_sdk/ndk-bundle/platforms/android-21/arch-arm/usr/include\android/native_window_jni.h:
+
+C:/Android_studio_sdk/ndk-bundle/platforms/android-21/arch-arm/usr/include\android/native_window.h:
+
+C:/Android_studio_sdk/ndk-bundle/platforms/android-21/arch-arm/usr/include\android/rect.h:

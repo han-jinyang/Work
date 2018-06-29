@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\AndroidStudioProjects\\OpenSource\\SpannableStringBuilderDemo\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\icon_pic.png",
+        "source": "C:\\AndroidStudioProjects\\OpenSource\\SpannableStringBuilderDemo\\src\\main\\res\\drawable-hdpi\\icon_pic.png"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\OpenSource\\SpannableStringBuilderDemo\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\ic_launcher.png",
+        "source": "C:\\AndroidStudioProjects\\OpenSource\\SpannableStringBuilderDemo\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    }
+]

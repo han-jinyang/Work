@@ -1,0 +1,45 @@
+package com.atguigu.beijingnews.menudatailpager;
+
+import android.content.Context;
+import android.support.v4.view.ViewPager;
+import android.view.View;
+
+import com.atguigu.beijingnews.R;
+import com.atguigu.beijingnews.base.MenuDetaiBasePager;
+import com.atguigu.beijingnews.utils.LogUtil;
+
+import org.xutils.view.annotation.ViewInject;
+import org.xutils.x;
+
+/**
+ * 作者：尚硅谷-杨光福 on 2016/8/15 15:19
+ * 微信：yangguangfu520
+ * QQ号：541433511
+ * 作用：新闻详情页面
+ */
+public class NewsMenuDetailPager extends MenuDetaiBasePager {
+
+
+    @ViewInject(R.id.viewpager)
+    private ViewPager viewPager;
+
+
+
+    public NewsMenuDetailPager(Context context) {
+        super(context);
+    }
+
+    @Override
+    public View initView() {
+        View view = View.inflate(context, R.layout.newsmenu_detail_pager,null);
+        x.view().inject(NewsMenuDetailPager.this,view);
+        return view;
+    }
+
+    @Override
+    public void initData() {
+        super.initData();
+
+        LogUtil.e("新闻详情页面数据被初始化了..");
+    }
+}

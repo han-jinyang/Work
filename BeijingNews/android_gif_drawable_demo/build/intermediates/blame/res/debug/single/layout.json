@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "C:\\AndroidStudioProjects\\OpenSource\\android_gif_drawable_demo\\build\\intermediates\\res\\merged\\debug\\layout\\activity_gif.xml",
+        "source": "C:\\AndroidStudioProjects\\OpenSource\\android_gif_drawable_demo\\src\\main\\res\\layout\\activity_gif.xml"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\OpenSource\\android_gif_drawable_demo\\build\\intermediates\\res\\merged\\debug\\layout\\activity_launcher.xml",
+        "source": "C:\\AndroidStudioProjects\\OpenSource\\android_gif_drawable_demo\\src\\main\\res\\layout\\activity_launcher.xml"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\OpenSource\\android_gif_drawable_demo\\build\\intermediates\\res\\merged\\debug\\layout\\activity_listview.xml",
+        "source": "C:\\AndroidStudioProjects\\OpenSource\\android_gif_drawable_demo\\src\\main\\res\\layout\\activity_listview.xml"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\OpenSource\\android_gif_drawable_demo\\build\\intermediates\\res\\merged\\debug\\layout\\activity_gridview.xml",
+        "source": "C:\\AndroidStudioProjects\\OpenSource\\android_gif_drawable_demo\\src\\main\\res\\layout\\activity_gridview.xml"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\BeijingNews\\android_gif_drawable_demo\\build\\intermediates\\res\\merged\\debug\\layout\\activity_launcher.xml",
+        "source": "C:\\AndroidStudioProjects\\BeijingNews\\android_gif_drawable_demo\\src\\main\\res\\layout\\activity_launcher.xml"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\OpenSource\\android_gif_drawable_demo\\build\\intermediates\\res\\merged\\debug\\layout\\item.xml",
+        "source": "C:\\AndroidStudioProjects\\OpenSource\\android_gif_drawable_demo\\src\\main\\res\\layout\\item.xml"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\BeijingNews\\android_gif_drawable_demo\\build\\intermediates\\res\\merged\\debug\\layout\\activity_gridview.xml",
+        "source": "C:\\AndroidStudioProjects\\BeijingNews\\android_gif_drawable_demo\\src\\main\\res\\layout\\activity_gridview.xml"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\BeijingNews\\android_gif_drawable_demo\\build\\intermediates\\res\\merged\\debug\\layout\\activity_gif.xml",
+        "source": "C:\\AndroidStudioProjects\\BeijingNews\\android_gif_drawable_demo\\src\\main\\res\\layout\\activity_gif.xml"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\BeijingNews\\android_gif_drawable_demo\\build\\intermediates\\res\\merged\\debug\\layout\\activity_listview.xml",
+        "source": "C:\\AndroidStudioProjects\\BeijingNews\\android_gif_drawable_demo\\src\\main\\res\\layout\\activity_listview.xml"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\BeijingNews\\android_gif_drawable_demo\\build\\intermediates\\res\\merged\\debug\\layout\\item.xml",
+        "source": "C:\\AndroidStudioProjects\\BeijingNews\\android_gif_drawable_demo\\src\\main\\res\\layout\\item.xml"
+    }
+]

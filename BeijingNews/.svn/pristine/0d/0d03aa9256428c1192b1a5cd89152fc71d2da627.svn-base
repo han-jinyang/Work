@@ -1,0 +1,45 @@
+package com.atguigu.beijingnews.menudatailpager;
+
+import android.content.Context;
+import android.view.View;
+import android.widget.ListView;
+
+import com.atguigu.beijingnews.R;
+import com.atguigu.beijingnews.base.MenuDetaiBasePager;
+import com.atguigu.beijingnews.utils.LogUtil;
+
+import org.xutils.view.annotation.ViewInject;
+import org.xutils.x;
+
+/**
+ * 作者：尚硅谷-杨光福 on 2016/8/15 15:19
+ * 微信：yangguangfu520
+ * QQ号：541433511
+ * 作用：图组详情页面
+ */
+public class PhotosMenuDetailPager extends MenuDetaiBasePager {
+
+    @ViewInject(R.id.listview)
+    private ListView listview;
+
+    @ViewInject(R.id.gridview)
+    private ListView gridview;
+
+    public PhotosMenuDetailPager(Context context) {
+        super(context);
+    }
+
+    @Override
+    public View initView() {
+        View view = View.inflate(context, R.layout.photos_menudetail_pager,null);
+        x.view().inject(this,view);
+        return view;
+    }
+
+    @Override
+    public void initData() {
+        super.initData();
+
+        LogUtil.e("图组详情页面数据被初始化了..");
+    }
+}

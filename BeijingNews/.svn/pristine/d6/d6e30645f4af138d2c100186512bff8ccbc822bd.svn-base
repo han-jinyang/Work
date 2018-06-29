@@ -1,0 +1,7 @@
+include ':app', ':SlidingMenu_library', ':xUtils3_sample', ':xutils', ':RefreshListView', ':RefreshListView_sample', ':AndroidAndH5', ':AndroidAndJs', ':尚硅谷商城'
+include ':ViewPagerIndicator_library'
+include ':ViewPagerIndicator_sample'
+include ':PullToRefresh_library'
+include ':pullToRefreshListFragment'
+include ':pullToRefreshViewPager'
+include ':PullToRefresh_sample'

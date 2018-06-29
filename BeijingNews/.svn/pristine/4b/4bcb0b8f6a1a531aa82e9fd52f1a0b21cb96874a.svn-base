@@ -1,0 +1,47 @@
+package com.atguigu.beijingnews.fragment;
+
+import android.support.v4.view.ViewPager;
+import android.view.View;
+import android.widget.RadioGroup;
+
+import com.atguigu.beijingnews.R;
+import com.atguigu.beijingnews.base.BaseFragment;
+import com.atguigu.beijingnews.utils.LogUtil;
+
+import org.xutils.view.annotation.ViewInject;
+import org.xutils.x;
+
+/**
+ * 作者：尚硅谷-杨光福 on 2016/8/13 15:42
+ * 微信：yangguangfu520
+ * QQ号：541433511
+ * 作用：正文Fragment
+ */
+public class ContentFragment extends BaseFragment {
+
+    //2.初始化控件
+    @ViewInject(R.id.viewpager)
+    private ViewPager viewpager;
+
+    @ViewInject(R.id.rg_main)
+    private RadioGroup rg_main;
+
+
+    @Override
+    public View initView() {
+        LogUtil.e("正文Fragemnt视图被初始化了");
+        View view = View.inflate(context, R.layout.content_fragment,null);
+        //1.把视图注入到框架中，让ContentFragment.this和View关联起来
+        x.view().inject(ContentFragment.this,view);
+        return view;
+    }
+
+    @Override
+    public void initData() {
+        super.initData();
+        LogUtil.e("正文Fragment数据被初始化了");
+
+        //设置默认选中首页
+        rg_main.check(R.id.rb_home);
+    }
+}

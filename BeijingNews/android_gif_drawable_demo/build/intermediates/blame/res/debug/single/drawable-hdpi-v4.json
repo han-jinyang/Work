@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "C:\\AndroidStudioProjects\\OpenSource\\android_gif_drawable_demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ag.gif",
+        "source": "C:\\AndroidStudioProjects\\OpenSource\\android_gif_drawable_demo\\src\\main\\res\\drawable-hdpi\\ag.gif"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\BeijingNews\\android_gif_drawable_demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ag.gif",
+        "source": "C:\\AndroidStudioProjects\\BeijingNews\\android_gif_drawable_demo\\src\\main\\res\\drawable-hdpi\\ag.gif"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\OpenSource\\android_gif_drawable_demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\vedio_default.png",
+        "source": "C:\\AndroidStudioProjects\\OpenSource\\android_gif_drawable_demo\\src\\main\\res\\drawable-hdpi\\vedio_default.png"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\BeijingNews\\android_gif_drawable_demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\vedio_default.png",
+        "source": "C:\\AndroidStudioProjects\\BeijingNews\\android_gif_drawable_demo\\src\\main\\res\\drawable-hdpi\\vedio_default.png"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\OpenSource\\android_gif_drawable_demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_launcher.png",
+        "source": "C:\\AndroidStudioProjects\\OpenSource\\android_gif_drawable_demo\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\BeijingNews\\android_gif_drawable_demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_launcher.png",
+        "source": "C:\\AndroidStudioProjects\\BeijingNews\\android_gif_drawable_demo\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    }
+]

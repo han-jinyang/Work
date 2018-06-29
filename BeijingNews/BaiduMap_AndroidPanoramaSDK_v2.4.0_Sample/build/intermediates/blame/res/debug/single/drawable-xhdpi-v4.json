@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "C:\\AndroidStudioProjects\\BeijingNews\\BaiduMap_AndroidPanoramaSDK_v2.4.0_Sample\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\baidupano_indoor_exit.png",
+        "source": "C:\\AndroidStudioProjects\\BeijingNews\\BaiduMap_AndroidPanoramaSDK_v2.4.0_Sample\\res\\drawable-xhdpi\\baidupano_indoor_exit.png"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\BeijingNews\\BaiduMap_AndroidPanoramaSDK_v2.4.0_Sample\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\button_down.9.png",
+        "source": "C:\\AndroidStudioProjects\\BeijingNews\\BaiduMap_AndroidPanoramaSDK_v2.4.0_Sample\\res\\drawable-xhdpi\\button_down.9.png"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\BeijingNews\\BaiduMap_AndroidPanoramaSDK_v2.4.0_Sample\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\button_on.9.png",
+        "source": "C:\\AndroidStudioProjects\\BeijingNews\\BaiduMap_AndroidPanoramaSDK_v2.4.0_Sample\\res\\drawable-xhdpi\\button_on.9.png"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\BeijingNews\\BaiduMap_AndroidPanoramaSDK_v2.4.0_Sample\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\baidupano_floortab_arrow.9.png",
+        "source": "C:\\AndroidStudioProjects\\BeijingNews\\BaiduMap_AndroidPanoramaSDK_v2.4.0_Sample\\res\\drawable-xhdpi\\baidupano_floortab_arrow.9.png"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\BeijingNews\\BaiduMap_AndroidPanoramaSDK_v2.4.0_Sample\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\street_arrow.png",
+        "source": "C:\\AndroidStudioProjects\\BeijingNews\\BaiduMap_AndroidPanoramaSDK_v2.4.0_Sample\\res\\drawable-xhdpi\\street_arrow.png"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\BeijingNews\\BaiduMap_AndroidPanoramaSDK_v2.4.0_Sample\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_marka.png",
+        "source": "C:\\AndroidStudioProjects\\BeijingNews\\BaiduMap_AndroidPanoramaSDK_v2.4.0_Sample\\res\\drawable-xhdpi\\icon_marka.png"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\BeijingNews\\BaiduMap_AndroidPanoramaSDK_v2.4.0_Sample\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_launcher.png",
+        "source": "C:\\AndroidStudioProjects\\BeijingNews\\BaiduMap_AndroidPanoramaSDK_v2.4.0_Sample\\res\\drawable-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\BeijingNews\\BaiduMap_AndroidPanoramaSDK_v2.4.0_Sample\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_markb.png",
+        "source": "C:\\AndroidStudioProjects\\BeijingNews\\BaiduMap_AndroidPanoramaSDK_v2.4.0_Sample\\res\\drawable-xhdpi\\icon_markb.png"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\BeijingNews\\BaiduMap_AndroidPanoramaSDK_v2.4.0_Sample\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\baidupano_floortab_line.9.png",
+        "source": "C:\\AndroidStudioProjects\\BeijingNews\\BaiduMap_AndroidPanoramaSDK_v2.4.0_Sample\\res\\drawable-xhdpi\\baidupano_floortab_line.9.png"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\BeijingNews\\BaiduMap_AndroidPanoramaSDK_v2.4.0_Sample\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\baidupano_photo_default.9.png",
+        "source": "C:\\AndroidStudioProjects\\BeijingNews\\BaiduMap_AndroidPanoramaSDK_v2.4.0_Sample\\res\\drawable-xhdpi\\baidupano_photo_default.9.png"
+    }
+]

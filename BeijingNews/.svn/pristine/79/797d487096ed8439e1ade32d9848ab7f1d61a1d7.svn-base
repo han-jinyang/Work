@@ -1,0 +1,8 @@
+include ':app', ':SlidingMenu_library', ':xUtils3_sample', ':xutils', ':RefreshListView', ':RefreshListView_sample', ':AndroidAndH5', ':AndroidAndJs', ':尚硅谷商城', ':VolleyDemo', ':JPushExample(513799)', ':ImageLoader_library', ':Image-Loader-sample', ':PhotoView_library', ':PhotoView-sample', ':OkHttpSample', ':sample-okhttp', ':okhttputils_library', ':OkHttpUtils_sample', ':okhttputils', ':okhttpserver', ':RecyclerViewDemo', ':MaterialRefreshLayout_library', ':MaterialRefreshLayout_sample', ':NumberAddSubView'
+include ':ViewPagerIndicator_library'
+include ':ViewPagerIndicator_sample'
+include ':PullToRefresh_library'
+include ':pullToRefreshListFragment'
+include ':pullToRefreshViewPager'
+include ':PullToRefresh_sample'
+include ':alipay_demo'

@@ -1,0 +1,51 @@
+package com.atguigu.beijingnews.adapter;
+
+import android.content.Context;
+import android.support.v7.widget.RecyclerView;
+import android.view.View;
+import android.view.ViewGroup;
+
+import com.atguigu.beijingnews.R;
+import com.atguigu.beijingnews.domain.ShoppingCart;
+
+import java.util.List;
+
+/**
+ * 作者：尚硅谷-杨光福 on 2016/8/30 09:10
+ * 微信：yangguangfu520
+ * QQ号：541433511
+ * 作用：购物车的适配器
+ */
+public class GovffairPagerAdapter extends RecyclerView.Adapter<GovffairPagerAdapter.ViewHolder> {
+
+    private final Context context;
+    private final List<ShoppingCart> datas;
+
+    public GovffairPagerAdapter(Context context ,List<ShoppingCart> datas){
+        this.context = context;
+        this.datas = datas;
+    }
+
+    @Override
+    public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
+        View itemView = View.inflate(context, R.layout.item_govaffair_pager,null);
+        return new ViewHolder(itemView);
+    }
+
+    @Override
+    public void onBindViewHolder(ViewHolder holder, int position) {
+
+    }
+
+    @Override
+    public int getItemCount() {
+        return datas.size();
+    }
+
+    class ViewHolder extends RecyclerView.ViewHolder{
+
+        public ViewHolder(View itemView) {
+            super(itemView);
+        }
+    }
+}

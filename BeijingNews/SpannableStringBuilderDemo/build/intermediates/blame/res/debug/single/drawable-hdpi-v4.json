@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\AndroidStudioProjects\\OpenSource\\SpannableStringBuilderDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_pic.png",
+        "source": "C:\\AndroidStudioProjects\\OpenSource\\SpannableStringBuilderDemo\\src\\main\\res\\drawable-hdpi\\icon_pic.png"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\BeijingNews\\SpannableStringBuilderDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_launcher.png",
+        "source": "C:\\AndroidStudioProjects\\BeijingNews\\SpannableStringBuilderDemo\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\BeijingNews\\SpannableStringBuilderDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_pic.png",
+        "source": "C:\\AndroidStudioProjects\\BeijingNews\\SpannableStringBuilderDemo\\src\\main\\res\\drawable-hdpi\\icon_pic.png"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\OpenSource\\SpannableStringBuilderDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_launcher.png",
+        "source": "C:\\AndroidStudioProjects\\OpenSource\\SpannableStringBuilderDemo\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    }
+]

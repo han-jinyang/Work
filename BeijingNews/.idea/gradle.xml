@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="LOCAL" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleHome" value="C:\Program Files\Android\Android Studio\gradle\gradle-2.8" />
+        <option name="gradleJvm" value="1.7" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/AFinal-Simple" />
+            <option value="$PROJECT_DIR$/AndroidAndH5" />
+            <option value="$PROJECT_DIR$/AndroidAndJs" />
+            <option value="$PROJECT_DIR$/BaiduLoc_AndroidSDK_v7.0_Demo" />
+            <option value="$PROJECT_DIR$/BaiduMap" />
+            <option value="$PROJECT_DIR$/BaiduMap_AndroidPanoramaSDK_v2.4.0_Sample" />
+            <option value="$PROJECT_DIR$/BaiduMapsApiDemo" />
+            <option value="$PROJECT_DIR$/BaiduNavi_AndroidSDK_v3.2.0_Sample" />
+            <option value="$PROJECT_DIR$/Image-Loader-sample" />
+            <option value="$PROJECT_DIR$/ImageLoader_library" />
+            <option value="$PROJECT_DIR$/JPushExample(513799)" />
+            <option value="$PROJECT_DIR$/MaterialRefreshLayout_library" />
+            <option value="$PROJECT_DIR$/MaterialRefreshLayout_sample" />
+            <option value="$PROJECT_DIR$/NumberAddSubView" />
+            <option value="$PROJECT_DIR$/OkHttpSample" />
+            <option value="$PROJECT_DIR$/OkHttpUtils_sample" />
+            <option value="$PROJECT_DIR$/PhotoView-sample" />
+            <option value="$PROJECT_DIR$/PhotoView_library" />
+            <option value="$PROJECT_DIR$/PullToRefresh_library" />
+            <option value="$PROJECT_DIR$/PullToRefresh_sample" />
+            <option value="$PROJECT_DIR$/RecyclerViewDemo" />
+            <option value="$PROJECT_DIR$/RefreshListView" />
+            <option value="$PROJECT_DIR$/RefreshListView_sample" />
+            <option value="$PROJECT_DIR$/ScreenAdapter_Code" />
+            <option value="$PROJECT_DIR$/ScreenAdapter_Layout" />
+            <option value="$PROJECT_DIR$/ScreenAdapter_Layout2" />
+            <option value="$PROJECT_DIR$/ScreenAdapter_PIC" />
+            <option value="$PROJECT_DIR$/ScreenAdapter_dimension" />
+            <option value="$PROJECT_DIR$/ScreenAdapter_weight" />
+            <option value="$PROJECT_DIR$/ScreenAdpater_percent" />
+            <option value="$PROJECT_DIR$/SlidingMenu_library" />
+            <option value="$PROJECT_DIR$/SpannableStringBuilderDemo" />
+            <option value="$PROJECT_DIR$/VariousShapeImageView-圆角图片" />
+            <option value="$PROJECT_DIR$/ViewPagerIndicator_library" />
+            <option value="$PROJECT_DIR$/ViewPagerIndicator_sample" />
+            <option value="$PROJECT_DIR$/VolleyDemo" />
+            <option value="$PROJECT_DIR$/alipay_demo" />
+            <option value="$PROJECT_DIR$/android-gif-drawable-library" />
+            <option value="$PROJECT_DIR$/android_gif_drawable_demo" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/okhttpserver" />
+            <option value="$PROJECT_DIR$/okhttputils" />
+            <option value="$PROJECT_DIR$/okhttputils_library" />
+            <option value="$PROJECT_DIR$/pullToRefreshListFragment" />
+            <option value="$PROJECT_DIR$/pullToRefreshViewPager" />
+            <option value="$PROJECT_DIR$/sample-okhttp" />
+            <option value="$PROJECT_DIR$/upload_file_android" />
+            <option value="$PROJECT_DIR$/xUtils3_sample" />
+            <option value="$PROJECT_DIR$/xutils" />
+            <option value="$PROJECT_DIR$/尚硅谷商城" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

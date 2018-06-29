@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\AndroidStudioProjects\\OpenSource\\android_gif_drawable_demo\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_launcher.png",
+        "source": "C:\\AndroidStudioProjects\\OpenSource\\android_gif_drawable_demo\\src\\main\\res\\drawable-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\BeijingNews\\android_gif_drawable_demo\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_launcher.png",
+        "source": "C:\\AndroidStudioProjects\\BeijingNews\\android_gif_drawable_demo\\src\\main\\res\\drawable-xxhdpi\\ic_launcher.png"
+    }
+]

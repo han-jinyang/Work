@@ -1,0 +1,40 @@
+package com.atguigu.beijingnews.menudatailpager.tabdetailpager;
+
+import android.content.Context;
+import android.view.View;
+
+import com.atguigu.beijingnews.R;
+import com.atguigu.beijingnews.base.MenuDetaiBasePager;
+import com.atguigu.beijingnews.domain.NewsCenterPagerBean2;
+import com.atguigu.beijingnews.utils.Constants;
+import com.atguigu.beijingnews.utils.LogUtil;
+
+/**
+ * 作者：尚硅谷-杨光福 on 2016/8/16 10:57
+ * 微信：yangguangfu520
+ * QQ号：541433511
+ * 作用：页签详情页面
+ */
+public class TabDetailPager extends MenuDetaiBasePager {
+    private final NewsCenterPagerBean2.DetailPagerData.ChildrenData childrenData;
+//    private TextView textView;
+    private String url;
+
+    public TabDetailPager(Context context, NewsCenterPagerBean2.DetailPagerData.ChildrenData childrenData) {
+        super(context);
+        this.childrenData = childrenData;
+    }
+
+    @Override
+    public View initView() {
+        View view = View.inflate(context, R.layout.tabdetail_pager,null);
+        return view;
+    }
+
+    @Override
+    public void initData() {
+        super.initData();
+        url = Constants.BASE_URL + childrenData.getUrl();
+        LogUtil.e(childrenData.getTitle()+"的联网地址=="+url);
+    }
+}

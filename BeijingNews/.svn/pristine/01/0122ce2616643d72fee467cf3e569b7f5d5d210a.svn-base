@@ -1,0 +1,119 @@
+package com.atguigu.beijingnews.menudatailpager;
+
+import android.content.Context;
+import android.text.TextUtils;
+import android.view.View;
+import android.widget.ListView;
+
+import com.android.volley.NetworkResponse;
+import com.android.volley.Request;
+import com.android.volley.Response;
+import com.android.volley.VolleyError;
+import com.android.volley.toolbox.HttpHeaderParser;
+import com.android.volley.toolbox.StringRequest;
+import com.atguigu.beijingnews.R;
+import com.atguigu.beijingnews.base.MenuDetaiBasePager;
+import com.atguigu.beijingnews.domain.NewsCenterPagerBean2;
+import com.atguigu.beijingnews.domain.PhotosMenuDetailPagerBean;
+import com.atguigu.beijingnews.utils.CacheUtils;
+import com.atguigu.beijingnews.utils.Constants;
+import com.atguigu.beijingnews.utils.LogUtil;
+import com.atguigu.beijingnews.volley.VolleyManager;
+import com.google.gson.Gson;
+
+import org.xutils.view.annotation.ViewInject;
+import org.xutils.x;
+
+import java.io.UnsupportedEncodingException;
+
+/**
+ * 作者：尚硅谷-杨光福 on 2016/8/15 15:19
+ * 微信：yangguangfu520
+ * QQ号：541433511
+ * 作用：图组详情页面
+ */
+public class PhotosMenuDetailPager extends MenuDetaiBasePager {
+
+    private final NewsCenterPagerBean2.DetailPagerData detailPagerData;
+    @ViewInject(R.id.listview)
+    private ListView listview;
+
+    @ViewInject(R.id.gridview)
+    private ListView gridview;
+
+    private String url;
+
+    public PhotosMenuDetailPager(Context context, NewsCenterPagerBean2.DetailPagerData detailPagerData) {
+        super(context);
+        this.detailPagerData = detailPagerData;
+    }
+
+    @Override
+    public View initView() {
+        View view = View.inflate(context, R.layout.photos_menudetail_pager, null);
+        x.view().inject(this, view);
+        return view;
+    }
+
+    @Override
+    public void initData() {
+        super.initData();
+        LogUtil.e("图组详情页面数据被初始化了..");
+        url = Constants.BASE_URL + detailPagerData.getUrl();
+        String saveJson = CacheUtils.getString(context, url);
+        if (!TextUtils.isEmpty(saveJson)) {
+            processData(saveJson);
+        }
+        getDataFromNet();
+    }
+
+
+    private void getDataFromNet() {
+        //String请求
+        StringRequest request = new StringRequest(Request.Method.GET, url, new Response.Listener<String>() {
+            @Override
+            public void onResponse(String result) {
+                LogUtil.e("使用Volley联网请求成功==" + result);
+                //缓存数据
+                CacheUtils.putString(context, url, result);
+
+                processData(result);
+                //设置适配器
+            }
+        }, new Response.ErrorListener() {
+            @Override
+            public void onErrorResponse(VolleyError volleyError) {
+                LogUtil.e("使用Volley联网请求失败==" + volleyError.getMessage());
+            }
+        }) {
+            @Override
+            protected Response<String> parseNetworkResponse(NetworkResponse response) {
+                try {
+                    String parsed = new String(response.data, "UTF-8");
+                    return Response.success(parsed, HttpHeaderParser.parseCacheHeaders(response));
+                } catch (UnsupportedEncodingException e) {
+                    e.printStackTrace();
+                }
+                return super.parseNetworkResponse(response);
+            }
+        };
+
+        //添加到队列
+        VolleyManager.getRequestQueue().add(request);
+    }
+
+
+    /**
+     * 解析和显示数据
+     * @param json
+     */
+    private void processData(String json) {
+
+        PhotosMenuDetailPagerBean bean = parsedJson(json);
+       LogUtil.e( "图组解析成功=="+bean.getData().getNews().get(0).getTitle());
+    }
+
+    private PhotosMenuDetailPagerBean parsedJson(String json) {
+        return new Gson().fromJson(json,PhotosMenuDetailPagerBean.class);
+    }
+}

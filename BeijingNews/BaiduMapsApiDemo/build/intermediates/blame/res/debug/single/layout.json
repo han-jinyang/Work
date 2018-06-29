@@ -1,0 +1,170 @@
+[
+    {
+        "merged": "C:\\AndroidStudioProjects\\BeijingNews\\BaiduMapsApiDemo\\build\\intermediates\\res\\merged\\debug\\layout\\activity_lbssearch.xml",
+        "source": "C:\\AndroidStudioProjects\\BeijingNews\\BaiduMapsApiDemo\\res\\layout\\activity_lbssearch.xml"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\BeijingNews\\BaiduMapsApiDemo\\build\\intermediates\\res\\merged\\debug\\layout\\activity_radartablayout.xml",
+        "source": "C:\\AndroidStudioProjects\\BeijingNews\\BaiduMapsApiDemo\\res\\layout\\activity_radartablayout.xml"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\BeijingNews\\BaiduMapsApiDemo\\build\\intermediates\\res\\merged\\debug\\layout\\demo_info_item.xml",
+        "source": "C:\\AndroidStudioProjects\\BeijingNews\\BaiduMapsApiDemo\\res\\layout\\demo_info_item.xml"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\BeijingNews\\BaiduMapsApiDemo\\build\\intermediates\\res\\merged\\debug\\layout\\activity_favorite_infowindow.xml",
+        "source": "C:\\AndroidStudioProjects\\BeijingNews\\BaiduMapsApiDemo\\res\\layout\\activity_favorite_infowindow.xml"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\BeijingNews\\BaiduMapsApiDemo\\build\\intermediates\\res\\merged\\debug\\layout\\activity_routeplan.xml",
+        "source": "C:\\AndroidStudioProjects\\BeijingNews\\BaiduMapsApiDemo\\res\\layout\\activity_routeplan.xml"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\BeijingNews\\BaiduMapsApiDemo\\build\\intermediates\\res\\merged\\debug\\layout\\activity_cloud_search_demo.xml",
+        "source": "C:\\AndroidStudioProjects\\BeijingNews\\BaiduMapsApiDemo\\res\\layout\\activity_cloud_search_demo.xml"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\BeijingNews\\BaiduMapsApiDemo\\build\\intermediates\\res\\merged\\debug\\layout\\activity_share_demo.xml",
+        "source": "C:\\AndroidStudioProjects\\BeijingNews\\BaiduMapsApiDemo\\res\\layout\\activity_share_demo.xml"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\BeijingNews\\BaiduMapsApiDemo\\build\\intermediates\\res\\merged\\debug\\layout\\activity_tile_demo.xml",
+        "source": "C:\\AndroidStudioProjects\\BeijingNews\\BaiduMapsApiDemo\\res\\layout\\activity_tile_demo.xml"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\BeijingNews\\BaiduMapsApiDemo\\build\\intermediates\\res\\merged\\debug\\layout\\activity_opengl.xml",
+        "source": "C:\\AndroidStudioProjects\\BeijingNews\\BaiduMapsApiDemo\\res\\layout\\activity_opengl.xml"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\BeijingNews\\BaiduMapsApiDemo\\build\\intermediates\\res\\merged\\debug\\layout\\activity_busline.xml",
+        "source": "C:\\AndroidStudioProjects\\BeijingNews\\BaiduMapsApiDemo\\res\\layout\\activity_busline.xml"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\BeijingNews\\BaiduMapsApiDemo\\build\\intermediates\\res\\merged\\debug\\layout\\activity_fragment.xml",
+        "source": "C:\\AndroidStudioProjects\\BeijingNews\\BaiduMapsApiDemo\\res\\layout\\activity_fragment.xml"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\BeijingNews\\BaiduMapsApiDemo\\build\\intermediates\\res\\merged\\debug\\layout\\activity_indoor_search.xml",
+        "source": "C:\\AndroidStudioProjects\\BeijingNews\\BaiduMapsApiDemo\\res\\layout\\activity_indoor_search.xml"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\BeijingNews\\BaiduMapsApiDemo\\build\\intermediates\\res\\merged\\debug\\layout\\activity_offline.xml",
+        "source": "C:\\AndroidStudioProjects\\BeijingNews\\BaiduMapsApiDemo\\res\\layout\\activity_offline.xml"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\BeijingNews\\BaiduMapsApiDemo\\build\\intermediates\\res\\merged\\debug\\layout\\activity_favorite_alert.xml",
+        "source": "C:\\AndroidStudioProjects\\BeijingNews\\BaiduMapsApiDemo\\res\\layout\\activity_favorite_alert.xml"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\BeijingNews\\BaiduMapsApiDemo\\build\\intermediates\\res\\merged\\debug\\layout\\activity_heatmap.xml",
+        "source": "C:\\AndroidStudioProjects\\BeijingNews\\BaiduMapsApiDemo\\res\\layout\\activity_heatmap.xml"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\BeijingNews\\BaiduMapsApiDemo\\build\\intermediates\\res\\merged\\debug\\layout\\activity_geocoder.xml",
+        "source": "C:\\AndroidStudioProjects\\BeijingNews\\BaiduMapsApiDemo\\res\\layout\\activity_geocoder.xml"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\BeijingNews\\BaiduMapsApiDemo\\build\\intermediates\\res\\merged\\debug\\layout\\activity_radarlist.xml",
+        "source": "C:\\AndroidStudioProjects\\BeijingNews\\BaiduMapsApiDemo\\res\\layout\\activity_radarlist.xml"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\BeijingNews\\BaiduMapsApiDemo\\build\\intermediates\\res\\merged\\debug\\layout\\activity_uisetting.xml",
+        "source": "C:\\AndroidStudioProjects\\BeijingNews\\BaiduMapsApiDemo\\res\\layout\\activity_uisetting.xml"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\BeijingNews\\BaiduMapsApiDemo\\build\\intermediates\\res\\merged\\debug\\layout\\activity_poisearch.xml",
+        "source": "C:\\AndroidStudioProjects\\BeijingNews\\BaiduMapsApiDemo\\res\\layout\\activity_poisearch.xml"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\BeijingNews\\BaiduMapsApiDemo\\build\\intermediates\\res\\merged\\debug\\layout\\activity_transit_item.xml",
+        "source": "C:\\AndroidStudioProjects\\BeijingNews\\BaiduMapsApiDemo\\res\\layout\\activity_transit_item.xml"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\BeijingNews\\BaiduMapsApiDemo\\build\\intermediates\\res\\merged\\debug\\layout\\offline_localmap_list.xml",
+        "source": "C:\\AndroidStudioProjects\\BeijingNews\\BaiduMapsApiDemo\\res\\layout\\offline_localmap_list.xml"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\BeijingNews\\BaiduMapsApiDemo\\build\\intermediates\\res\\merged\\debug\\layout\\activity_transit_dialog.xml",
+        "source": "C:\\AndroidStudioProjects\\BeijingNews\\BaiduMapsApiDemo\\res\\layout\\activity_transit_dialog.xml"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\BeijingNews\\BaiduMapsApiDemo\\build\\intermediates\\res\\merged\\debug\\layout\\activity_layers.xml",
+        "source": "C:\\AndroidStudioProjects\\BeijingNews\\BaiduMapsApiDemo\\res\\layout\\activity_layers.xml"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\BeijingNews\\BaiduMapsApiDemo\\build\\intermediates\\res\\merged\\debug\\layout\\activity_radarmap.xml",
+        "source": "C:\\AndroidStudioProjects\\BeijingNews\\BaiduMapsApiDemo\\res\\layout\\activity_radarmap.xml"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\BeijingNews\\BaiduMapsApiDemo\\build\\intermediates\\res\\merged\\debug\\layout\\activity_geometry.xml",
+        "source": "C:\\AndroidStudioProjects\\BeijingNews\\BaiduMapsApiDemo\\res\\layout\\activity_geometry.xml"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\BeijingNews\\BaiduMapsApiDemo\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "C:\\AndroidStudioProjects\\BeijingNews\\BaiduMapsApiDemo\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\BeijingNews\\BaiduMapsApiDemo\\build\\intermediates\\res\\merged\\debug\\layout\\activity_mapcontrol.xml",
+        "source": "C:\\AndroidStudioProjects\\BeijingNews\\BaiduMapsApiDemo\\res\\layout\\activity_mapcontrol.xml"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\BeijingNews\\BaiduMapsApiDemo\\build\\intermediates\\res\\merged\\debug\\layout\\activity_tile_overlay_demo.xml",
+        "source": "C:\\AndroidStudioProjects\\BeijingNews\\BaiduMapsApiDemo\\res\\layout\\activity_tile_overlay_demo.xml"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\BeijingNews\\BaiduMapsApiDemo\\build\\intermediates\\res\\merged\\debug\\layout\\activity_location.xml",
+        "source": "C:\\AndroidStudioProjects\\BeijingNews\\BaiduMapsApiDemo\\res\\layout\\activity_location.xml"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\BeijingNews\\BaiduMapsApiDemo\\build\\intermediates\\res\\merged\\debug\\layout\\custom_text_view.xml",
+        "source": "C:\\AndroidStudioProjects\\BeijingNews\\BaiduMapsApiDemo\\res\\layout\\custom_text_view.xml"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\BeijingNews\\BaiduMapsApiDemo\\build\\intermediates\\res\\merged\\debug\\layout\\activity_multimap.xml",
+        "source": "C:\\AndroidStudioProjects\\BeijingNews\\BaiduMapsApiDemo\\res\\layout\\activity_multimap.xml"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\BeijingNews\\BaiduMapsApiDemo\\build\\intermediates\\res\\merged\\debug\\layout\\text_bubble.xml",
+        "source": "C:\\AndroidStudioProjects\\BeijingNews\\BaiduMapsApiDemo\\res\\layout\\text_bubble.xml"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\BeijingNews\\BaiduMapsApiDemo\\build\\intermediates\\res\\merged\\debug\\layout\\activity_share_demo_activity.xml",
+        "source": "C:\\AndroidStudioProjects\\BeijingNews\\BaiduMapsApiDemo\\res\\layout\\activity_share_demo_activity.xml"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\BeijingNews\\BaiduMapsApiDemo\\build\\intermediates\\res\\merged\\debug\\layout\\activity_texture_map_view_demo.xml",
+        "source": "C:\\AndroidStudioProjects\\BeijingNews\\BaiduMapsApiDemo\\res\\layout\\activity_texture_map_view_demo.xml"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\BeijingNews\\BaiduMapsApiDemo\\build\\intermediates\\res\\merged\\debug\\layout\\activity_district_search_demo.xml",
+        "source": "C:\\AndroidStudioProjects\\BeijingNews\\BaiduMapsApiDemo\\res\\layout\\activity_district_search_demo.xml"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\BeijingNews\\BaiduMapsApiDemo\\build\\intermediates\\res\\merged\\debug\\layout\\activity_overlay.xml",
+        "source": "C:\\AndroidStudioProjects\\BeijingNews\\BaiduMapsApiDemo\\res\\layout\\activity_overlay.xml"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\BeijingNews\\BaiduMapsApiDemo\\build\\intermediates\\res\\merged\\debug\\layout\\main.xml",
+        "source": "C:\\AndroidStudioProjects\\BeijingNews\\BaiduMapsApiDemo\\res\\layout\\main.xml"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\BeijingNews\\BaiduMapsApiDemo\\build\\intermediates\\res\\merged\\debug\\layout\\activity_indoor.xml",
+        "source": "C:\\AndroidStudioProjects\\BeijingNews\\BaiduMapsApiDemo\\res\\layout\\activity_indoor.xml"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\BeijingNews\\BaiduMapsApiDemo\\build\\intermediates\\res\\merged\\debug\\layout\\activity_open_baidumap.xml",
+        "source": "C:\\AndroidStudioProjects\\BeijingNews\\BaiduMapsApiDemo\\res\\layout\\activity_open_baidumap.xml"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\BeijingNews\\BaiduMapsApiDemo\\build\\intermediates\\res\\merged\\debug\\layout\\activity_favorite.xml",
+        "source": "C:\\AndroidStudioProjects\\BeijingNews\\BaiduMapsApiDemo\\res\\layout\\activity_favorite.xml"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\BeijingNews\\BaiduMapsApiDemo\\build\\intermediates\\res\\merged\\debug\\layout\\activity_clustering_demo.xml",
+        "source": "C:\\AndroidStudioProjects\\BeijingNews\\BaiduMapsApiDemo\\res\\layout\\activity_clustering_demo.xml"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\BeijingNews\\BaiduMapsApiDemo\\build\\intermediates\\res\\merged\\debug\\layout\\activity_marker_cluster_demo.xml",
+        "source": "C:\\AndroidStudioProjects\\BeijingNews\\BaiduMapsApiDemo\\res\\layout\\activity_marker_cluster_demo.xml"
+    }
+]

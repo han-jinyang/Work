@@ -1,0 +1,10 @@
+include ':app', ':SlidingMenu_library', ':xUtils3_sample', ':xutils', ':RefreshListView', ':RefreshListView_sample', ':AndroidAndH5', ':AndroidAndJs', ':尚硅谷商城', ':VolleyDemo', ':JPushExample(513799)', ':ImageLoader_library', ':Image-Loader-sample', ':PhotoView_library', ':PhotoView-sample', ':OkHttpSample', ':sample-okhttp', ':okhttputils_library', ':OkHttpUtils_sample', ':okhttputils', ':okhttpserver', ':RecyclerViewDemo', ':MaterialRefreshLayout_library', ':MaterialRefreshLayout_sample', ':NumberAddSubView', ':android_gif_drawable_demo', ':android-gif-drawable-library', ':VariousShapeImageView-圆角图片', ':AFinal-Simple', ':ScreenAdapter_PIC', ':ScreenAdapter_Layout', ':ScreenAdapter_Layout2', ':ScreenAdapter_Code', ':ScreenAdapter_weight', ':ScreenAdapter_dimension', ':ScreenAdpater_percent', ':SpannableStringBuilderDemo', ':BaiduLoc_AndroidSDK_v7.0_Demo', ':BaiduMap', ':BaiduMapsApiDemo', ':BaiduMap_AndroidPanoramaSDK_v2.4.0_Sample', ':BaiduNavi_AndroidSDK_v3.2.0_Sample'
+include ':ViewPagerIndicator_library'
+include ':ViewPagerIndicator_sample'
+include ':PullToRefresh_library'
+include ':pullToRefreshListFragment'
+include ':pullToRefreshViewPager'
+include ':PullToRefresh_sample'
+include ':alipay_demo'
+include ':upload_file_android'
+

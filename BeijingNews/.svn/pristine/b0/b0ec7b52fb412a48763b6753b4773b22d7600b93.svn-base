@@ -1,0 +1,45 @@
+package com.atguigu.beijingnews.pager;
+
+import android.content.Context;
+import android.support.v7.widget.RecyclerView;
+import android.view.View;
+import android.widget.ProgressBar;
+
+import com.atguigu.beijingnews.R;
+import com.atguigu.beijingnews.base.BasePager;
+import com.atguigu.beijingnews.utils.LogUtil;
+import com.cjj.MaterialRefreshLayout;
+
+/**
+ * 作者：尚硅谷-杨光福 on 2016/8/15 09:53
+ * 微信：yangguangfu520
+ * QQ号：541433511
+ * 作用：智慧服务
+ */
+public class SmartServicePager extends BasePager {
+
+    private MaterialRefreshLayout refreshLayout;
+    private RecyclerView recyclerview;
+    private ProgressBar pb_loading;
+    public SmartServicePager(Context context) {
+        super(context);
+    }
+
+    @Override
+    public void initData() {
+        super.initData();
+        LogUtil.e("智慧服务数据被初始化了..");
+        //1.设置标题
+        tv_title.setText("商城热卖");
+        //2.联网请求，得到数据，创建视图
+        View view = View.inflate(context, R.layout.smartservice_pager,null);
+        refreshLayout = (MaterialRefreshLayout) view.findViewById(R.id.refreshLayout);
+        recyclerview = (RecyclerView) view.findViewById(R.id.recyclerview);
+        pb_loading = (ProgressBar) view.findViewById(R.id.pb_loading);
+        //3.把子视图添加到BasePager的FrameLayout中
+        fl_content.addView(view);
+        //4.绑定数据
+//        textView.setText("智慧服务内容");
+
+    }
+}

@@ -1,0 +1,175 @@
+package com.atguigu.beijingnews.pager;
+
+import android.content.Context;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
+import android.view.View;
+import android.widget.Button;
+import android.widget.CheckBox;
+import android.widget.TextView;
+
+import com.atguigu.beijingnews.R;
+import com.atguigu.beijingnews.adapter.GovffairPagerAdapter;
+import com.atguigu.beijingnews.base.BasePager;
+import com.atguigu.beijingnews.domain.ShoppingCart;
+import com.atguigu.beijingnews.utils.CartProvider;
+import com.atguigu.beijingnews.utils.LogUtil;
+
+import java.util.List;
+
+/**
+ * 作者：尚硅谷-杨光福 on 2016/8/15 09:53
+ * 微信：yangguangfu520
+ * QQ号：541433511
+ * 作用：政要指南
+ */
+public class GovaffairPager extends BasePager {
+    private CartProvider cartProvider;
+    private RecyclerView recyclerview;
+    private CheckBox checkbox_all;
+    private TextView tv_total_price;
+    private Button btn_order;
+    private Button btn_delete;
+    private TextView tv_result;
+
+    private GovffairPagerAdapter adapter;
+    /**
+     * 购物车的数据
+     */
+    private List<ShoppingCart> datas;
+
+    /**
+     * 编辑状态
+     */
+    private static final int ACTION_EDIT = 0;
+    /**
+     * 完成状态
+     */
+    private static final int ACTION_COMPLETE = 1;
+
+    public GovaffairPager(Context context) {
+        super(context);
+        cartProvider = new CartProvider(context);
+    }
+
+    @Override
+    public void initData() {
+        super.initData();
+        LogUtil.e("政要指南数据被初始化了..");
+        //1.设置标题
+        tv_title.setText("购物车");
+        btn_cart.setVisibility(View.VISIBLE);
+        //2.联网请求，得到数据，创建视图
+
+        View view = View.inflate(context, R.layout.govaffair_pager,null);
+        recyclerview = (RecyclerView) view.findViewById(R.id.recyclerview);
+        checkbox_all = (CheckBox) view.findViewById(R.id.checkbox_all);
+        tv_total_price = (TextView) view.findViewById(R.id.tv_total_price);
+        btn_order = (Button) view.findViewById(R.id.btn_order);
+        btn_delete = (Button) view.findViewById(R.id.btn_delete);
+        tv_result = (TextView) view.findViewById(R.id.tv_result);
+        //3.把子视图添加到BasePager的FrameLayout中
+        if(fl_content != null){
+            fl_content.removeAllViews();
+        }
+        fl_content.addView(view);
+        //4.绑定数据
+        tv_total_price.setText("");
+
+        //设置编辑的点击事件
+        btn_cart.setTag(ACTION_EDIT);
+        btn_cart.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                int action = (int) btn_cart.getTag();
+                if(action ==ACTION_EDIT){
+                    //变成完成状态
+                    showDelete();
+                }else if(action ==ACTION_COMPLETE){
+                    //变成编辑状态
+                    hideDelete();
+                }
+
+            }
+        });
+
+        //设置删除按钮的监听
+        btn_delete.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                adapter.deleteData();
+                adapter.showTotalPrice();
+                checkData();
+                adapter.checkAll();
+            }
+        });
+
+        showData();
+
+    }
+
+    private void checkData() {
+        if(adapter != null && adapter.getItemCount() >0){
+            //有数据
+            tv_result.setVisibility(View.GONE);
+
+        }else{
+            //没有数据
+            tv_result.setVisibility(View.VISIBLE);
+        }
+    }
+
+    /**
+     * 隐藏删除按钮
+     */
+    private void hideDelete() {
+        //1.文本设置-编辑
+        btn_cart.setText("编辑");
+        //2.状态设置编辑
+        btn_cart.setTag(ACTION_EDIT);
+        //3.数据设置非全选
+        adapter.checkAll_none(true);
+        adapter.checkAll();
+        //4.隐藏按钮显示，显示结算按钮
+        btn_delete.setVisibility(View.GONE);
+        btn_order.setVisibility(View.VISIBLE);
+        //5.价格重新计算
+        adapter.showTotalPrice();
+    }
+
+    /**
+     * 显示删除按钮
+     */
+    private void showDelete() {
+        //1.文本设置-完成
+        btn_cart.setText("完成");
+        //2.状态设置完成
+        btn_cart.setTag(ACTION_COMPLETE);
+        //3.数据设置非全选
+        adapter.checkAll_none(false);
+        adapter.checkAll();
+        //4.删除按钮显示，隐藏结算按钮
+        btn_delete.setVisibility(View.VISIBLE);
+        btn_order.setVisibility(View.GONE);
+        //5.价格重新计算
+        adapter.showTotalPrice();
+
+    }
+
+    private void showData() {
+        datas =  cartProvider.getAllData();
+        if(datas != null && datas.size() >0){
+            //有数据
+            tv_result.setVisibility(View.GONE);
+            //设置适配器
+            adapter = new GovffairPagerAdapter(context,datas,checkbox_all,tv_total_price);
+            recyclerview.setAdapter(adapter);
+
+            recyclerview.setLayoutManager(new LinearLayoutManager(context,LinearLayoutManager.VERTICAL,false));
+
+        }else{
+            //没有数据
+            tv_result.setVisibility(View.VISIBLE);
+        }
+    }
+}
